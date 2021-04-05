@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "start": "svelte-kit start",
+    "storybook": "start-storybook -p 6006 --ci -s static"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-static": "next",
+    "@sveltejs/kit": "next",
+    "svelte": "^3.37.0",
+    "svelte-preprocess": "^4.7.0",
+    "vite": "^2.1.5"
+  }
+}
